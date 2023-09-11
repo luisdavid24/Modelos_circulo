@@ -48,7 +48,8 @@ for iteracion in range(1,NUMERO_ITERACIONES):
     VECTOR_PASOS.append(buscar())
     
 
-
+#En esta seccion se va comenzar a calcular la media, el numero medio, el valor maximo y minimo etc.
+#Aqui ordenamos el vector de menor a mayor
 VECTOR_PASOS.sort()
 longitud = len(VECTOR_PASOS)
 media = sum(VECTOR_PASOS) / longitud
